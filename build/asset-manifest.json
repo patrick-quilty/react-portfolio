@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a9bae9be.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.49ff2663.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.49ff2663.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.609804ff.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.609804ff.js.map",
+    "static/js/2.b3f5e6ba.chunk.js": "/react-portfolio/static/js/2.b3f5e6ba.chunk.js",
+    "static/js/2.b3f5e6ba.chunk.js.map": "/react-portfolio/static/js/2.b3f5e6ba.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.de6201e3f10eb87ea7fa1045253767ed.js": "/react-portfolio/precache-manifest.de6201e3f10eb87ea7fa1045253767ed.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.a9bae9be.chunk.css.map": "/react-portfolio/static/css/main.a9bae9be.chunk.css.map",
+    "static/js/2.b3f5e6ba.chunk.js.LICENSE": "/react-portfolio/static/js/2.b3f5e6ba.chunk.js.LICENSE",
+    "static/media/SMBC20110908.png": "/react-portfolio/static/media/SMBC20110908.39b5b83f.png",
+    "static/media/XKCD664.png": "/react-portfolio/static/media/XKCD664.a949c0d6.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.1b263a7f.jpg",
+    "static/media/icon-CSS3.png": "/react-portfolio/static/media/icon-CSS3.df2215ab.png",
+    "static/media/icon-email.png": "/react-portfolio/static/media/icon-email.2915f86f.png",
+    "static/media/icon-jQuery.png": "/react-portfolio/static/media/icon-jQuery.3420e571.png",
+    "static/media/icon-node.png": "/react-portfolio/static/media/icon-node.d3766192.png",
+    "static/media/icon-phone.png": "/react-portfolio/static/media/icon-phone.37beda9d.png",
+    "static/media/icon-react.png": "/react-portfolio/static/media/icon-react.5f9fcdd9.png",
+    "static/media/spouts-screen.png": "/react-portfolio/static/media/spouts-screen.9cb54203.png",
+    "static/media/sudoku-screen.png": "/react-portfolio/static/media/sudoku-screen.55125245.png",
+    "static/media/yoga-screen.png": "/react-portfolio/static/media/yoga-screen.85f8510f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.609804ff.js",
+    "static/js/2.b3f5e6ba.chunk.js",
+    "static/css/main.a9bae9be.chunk.css",
+    "static/js/main.49ff2663.chunk.js"
+  ]
+}

@@ -1,0 +1,41 @@
+header{
+  height: 0px;
+}
+
+.headshot {
+  position: absolute;
+  right: 0px;
+  top: 6vw;
+  width: 100%;
+  height: calc(900vw / 16);
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: calc(685vw / 16);
+  left: 52.5%;
+  width: 45%;
+  z-index: 9;
+}
+
+.tagline {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  color: #88FFFA;
+}
+
+.tagline1 {
+  align-self: flex-start;
+}
+
+.tagline2 {
+  position: relative;
+  right: 0.75vw;
+}
+
+.tagline3 {
+  align-self: flex-end;
+}

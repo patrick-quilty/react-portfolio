@@ -1,0 +1,97 @@
+.projectImg {
+  width: 70%;
+  margin-bottom: 4vw;
+}
+
+.projectText {
+  font-size: calc(4px + 1.5vw);
+  width: 70%;
+  text-align: left;
+  line-height: 4vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectHeader {
+  display: flex;
+  text-align: left;
+  position: relative;
+  left: 15%;
+  width: 70%;
+  margin-bottom: 1vw;
+}
+
+h2 {
+  font-size: calc(5px + 2vw);
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: left;
+}
+
+.icon {
+  width: calc(12px + 2vw);
+  height: calc(12px + 2vw);
+  margin-left: 2px;
+}
+
+.HTML5 {
+  height: calc(12px + 2vw);
+  width: calc(13.5px + 2vw);
+}
+
+.CSS3 {
+  height: calc(12px + 2vw);
+  width: calc(9.5px + 2vw);
+}
+
+.linkContainer {
+  text-align: left;
+  position: relative;
+  left: 15%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: .5vw;
+  margin-bottom: .75vw;
+}
+
+.linkText {
+  font-size: calc(4px + 1.5vw);
+  line-height: 4vw;
+  font-family: 'Montserrat Alternates', sans-serif;
+  vertical-align: middle;
+}
+
+.repo {
+  width: calc((4px + 1.5vw) * 2.85);
+}
+
+.liveApp {
+  width: calc((4px + 1.5vw) * 4.62);
+}
+
+.iconSmall {
+  width: calc(6px + 1.5vw);
+  height: calc(6px + 1.5vw);
+  vertical-align: middle;
+  margin-left: .5vw;
+}
+
+@media screen and (max-width: 400px) {
+  .icon {
+    width: calc(5px + 2vw);
+    height: calc(5px + 2vw);
+    position: relative;
+    top: 2px;
+  }
+
+  .HTML5 {
+    height: calc(5px + 2vw);
+    width: calc(6px + 2vw);
+  }
+
+  .CSS3 {
+    height: calc(5px + 2vw);
+    width: calc(4.2px + 2vw);
+  }
+}

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+Array [
+  <footer
+    className="contact"
+    role="contentinfo"
+  >
+    <div
+      className="anchor"
+      id="contact"
+    />
+    <h1>
+      Contact
+    </h1>
+    <p
+      className="copy"
+    >
+      © 2019 Patrick Quilty
+    </p>
+    <img
+      alt="Email icon"
+      className="iconSmall2"
+      src="icon-email.png"
+      title="p.quilty@yahoo.com"
+    />
+    <a
+      href="https://github.com/QuiltDaddy"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="GitHub icon"
+        className="iconSmall2"
+        src="icon-gitHub.png"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/patrick-quilty-636b26184/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="LinkedIn icon"
+        className="iconSmall2"
+        src="icon-linkedIn.png"
+      />
+    </a>
+    <img
+      alt="Phone icon"
+      className="iconSmall2 phone hide"
+      src="icon-phone.png"
+      title="(513) 600-8270"
+    />
+    <a
+      href="solve:Math-Problem-Of-The-Day"
+    >
+      <img
+        alt="Question Mark"
+        className="iconSmall2 secret"
+        onClick={[Function]}
+        role="button"
+        src="icon-question-mark.png"
+      />
+    </a>
+    <a
+      className="portfolioLink"
+      href="https://github.com/QuiltDaddy/portfolio"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Portfolio Repo
+    </a>
+  </footer>,
+  <div />,
+]
+`;

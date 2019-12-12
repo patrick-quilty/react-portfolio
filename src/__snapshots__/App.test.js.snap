@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="App"
+>
+  <nav
+    role="navigation"
+  >
+    <ul>
+      <li>
+        <a
+          href="#home"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="#bio"
+        >
+          Bio
+        </a>
+      </li>
+      <li>
+        <a
+          href="#portfolio"
+        >
+          Portfolio
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <header
+    role="banner"
+  >
+    <img
+      alt="A handsome man smiles in front of a field of trees."
+      className="headshot"
+      id="headshot"
+      src="headshot.jpg"
+    />
+    <section
+      className="tagContainer"
+    >
+      <p
+        className="tagline tagline1"
+      >
+        Patrick
+      </p>
+      <p
+        className="tagline tagline2"
+      >
+        purges
+      </p>
+      <p
+        className="tagline tagline3"
+      >
+        puzzles.
+      </p>
+    </section>
+  </header>
+  <main
+    role="main"
+  >
+    <section>
+      <div
+        className="anchor1"
+        id="bio"
+      />
+      <p
+        className="headline"
+      >
+        I
+        '
+        m a fullstack developer who
+        '
+        s adept with
+        <br />
+        Git, Java, React, Node and Postgres.
+      </p>
+      <h1>
+        Bio
+      </h1>
+      <p
+        className="bioText"
+      >
+        My name is Patrick Quilty and I am a computer programming yoga teacher who inhales underground hiphop and exhales eye-rolling puns.  The first program I wrote was a BAC calculator on a TI-84 Plus in high school; I was a hit at parties
+        ...
+          I took an elective to pursue my interest and made a Rubik
+        '
+        s Cube solver in Visual Basic.  After years of programming as a hobby I decided to sharpen my skills through the Web Developer Track at Bloc, of which I am a recent graduate.
+        <br />
+        <br />
+      </p>
+      <p
+        className="bioText"
+      >
+        I recently took a Java program of mine for teaching users how to solve a Sudoku puzzle, translated it into JS, and turned it into the project below.  I know I can figure out how to solve any stumbling block in completing projects and I have the innate desire to solve puzzles that propels me into doing just that.  I am currently Cincinnati based, but very willing to travel or work remotely.
+      </p>
+    </section>
+    <section
+      className="portfolio"
+    >
+      <div
+        className="anchor"
+        id="portfolio"
+      />
+      <h1>
+        Portfolio
+      </h1>
+      <div
+        className="project"
+      >
+        <div
+          className="projectHeader"
+        >
+          <h2>
+            Sudoku Solutions
+          </h2>
+          <img
+            alt="HTML5 icon"
+            className="icon HTML5"
+            src="icon-HTML5.png"
+          />
+          <img
+            alt="CSS3 icon"
+            className="icon CSS3"
+            src="icon-CSS3.png"
+          />
+          <img
+            alt="JS icon"
+            className="icon"
+            src="icon-JS.png"
+          />
+          <img
+            alt="jQuery icon"
+            className="icon"
+            src="icon-jQuery.png"
+          />
+        </div>
+        <p
+          className="projectText"
+        >
+          This application takes any given Sudoku and walks the user through the logic of solving it with detailed explanations at each step.  It also has a feature to generate a random new puzzle of a specified difficulty.  Accessible to A11y users, keyboard users, mouse users, and phone users.  Also included is a brute force solve method.
+        </p>
+        <div
+          className="linkContainer"
+        >
+          <div>
+            <label
+              className="linkText repo"
+            >
+              Repo:
+            </label>
+            <a
+              href="https://github.com/QuiltDaddy/Sudoku-Website"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="GitHub icon"
+                className="iconSmall"
+                src="icon-gitHub.png"
+              />
+            </a>
+          </div>
+          <div>
+            <label
+              className="linkText liveApp"
+            >
+              Live App:
+            </label>
+          </div>
+        </div>
+        <a
+          href="https://quiltdaddy.github.io/Sudoku-Website/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="A clickable screenshot of the application that takes you to the live website."
+            className="projectImg"
+            src="sudoku-screen.png"
+          />
+        </a>
+      </div>
+      <div
+        className="project"
+      >
+        <div
+          className="projectHeader"
+        >
+          <h2>
+            Yoga Quiz
+          </h2>
+          <img
+            alt="HTML5 icon"
+            className="icon HTML5"
+            src="icon-HTML5.png"
+          />
+          <img
+            alt="CSS3 icon"
+            className="icon CSS3"
+            src="icon-CSS3.png"
+          />
+          <img
+            alt="JS icon"
+            className="icon"
+            src="icon-JS.png"
+          />
+          <img
+            alt="react icon"
+            className="icon"
+            src="icon-react.png"
+          />
+        </div>
+        <p
+          className="projectText"
+        >
+          A program to demonstrate basic React website functionality and accessibility.  Accessible to A11y users, keyboard users, mouse users, and phone users.
+        </p>
+        <div
+          className="linkContainer"
+        >
+          <div>
+            <label
+              className="linkText repo"
+            >
+              Repo:
+            </label>
+            <a
+              href="https://github.com/QuiltDaddy/react-yoga-quiz/tree/master"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="GitHub icon"
+                className="iconSmall"
+                src="icon-gitHub.png"
+              />
+            </a>
+          </div>
+          <div>
+            <label
+              className="linkText liveApp"
+            >
+              Live App:
+            </label>
+          </div>
+        </div>
+        <a
+          href="https://quiltdaddy.github.io/react-yoga-quiz/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="A clickable screenshot of the application that takes you to the live website."
+            className="projectImg"
+            src="yoga-screen.png"
+          />
+        </a>
+      </div>
+      <div
+        className="project"
+      >
+        <div
+          className="projectHeader"
+        >
+          <h2>
+            Spouts on Routes
+          </h2>
+          <img
+            alt="HTML5 icon"
+            className="icon HTML5"
+            src="icon-HTML5.png"
+          />
+          <img
+            alt="CSS3 icon"
+            className="icon CSS3"
+            src="icon-CSS3.png"
+          />
+          <img
+            alt="JS icon"
+            className="icon"
+            src="icon-JS.png"
+          />
+          <img
+            alt="jQuery icon"
+            className="icon"
+            src="icon-jQuery.png"
+          />
+        </div>
+        <p
+          className="projectText"
+        >
+          This project integrates Open Brewery DB, Google Maps API, and Mapquest Geocoding API to provide the user with bicycle directions to their favorite brewery.  After searching their area for craft or large scale breweries the user provides the desired starting address and the bicycle optimized directions are displayed visually and in text format.
+        </p>
+        <div
+          className="linkContainer"
+        >
+          <div>
+            <label
+              className="linkText repo"
+            >
+              Repo:
+            </label>
+            <a
+              href="https://github.com/QuiltDaddy/spouts-on-routes"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="GitHub icon"
+                className="iconSmall"
+                src="icon-gitHub.png"
+              />
+            </a>
+          </div>
+          <div>
+            <label
+              className="linkText liveApp"
+            >
+              Live App:
+            </label>
+          </div>
+        </div>
+        <a
+          href="https://quiltdaddy.github.io/spouts-on-routes/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="A clickable screenshot of the application that takes you to the live website."
+            className="projectImg"
+            src="spouts-screen.png"
+          />
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer
+    className="contact"
+    role="contentinfo"
+  >
+    <div
+      className="anchor"
+      id="contact"
+    />
+    <h1>
+      Contact
+    </h1>
+    <p
+      className="copy"
+    >
+      © 2019 Patrick Quilty
+    </p>
+    <img
+      alt="Email icon"
+      className="iconSmall2"
+      src="icon-email.png"
+      title="p.quilty@yahoo.com"
+    />
+    <a
+      href="https://github.com/QuiltDaddy"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="GitHub icon"
+        className="iconSmall2"
+        src="icon-gitHub.png"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/patrick-quilty-636b26184/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="LinkedIn icon"
+        className="iconSmall2"
+        src="icon-linkedIn.png"
+      />
+    </a>
+    <img
+      alt="Phone icon"
+      className="iconSmall2 phone hide"
+      src="icon-phone.png"
+      title="(513) 600-8270"
+    />
+    <a
+      href="solve:Math-Problem-Of-The-Day"
+    >
+      <img
+        alt="Question Mark"
+        className="iconSmall2 secret"
+        onClick={[Function]}
+        role="button"
+        src="icon-question-mark.png"
+      />
+    </a>
+    <a
+      className="portfolioLink"
+      href="https://github.com/QuiltDaddy/portfolio"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Portfolio Repo
+    </a>
+  </footer>
+  <div />
+</div>
+`;
