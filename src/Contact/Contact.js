@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import contactPictures from '../pictures/contactPictures';
 import './Contact.css';
 
@@ -105,7 +105,7 @@ class Contact extends Component {
             onClick={this.askQuestion} />
         </a>
         <a
-          href='https://github.com/QuiltDaddy/portfolio'
+          href='https://github.com/QuiltDaddy/react-portfolio/tree/master'
           className='portfolioLink'
           target='_blank'
           rel='noopener noreferrer'>
