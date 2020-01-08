@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0f9a39cdc433a0f37e36e22ba71aea0",
+    "revision": "68315ac409b0bebb8a95cf44463f4cf7",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "562b3ba087c651171616",
+    "revision": "fe70a49d28896075391e",
     "url": "/react-portfolio/static/css/main.a9bae9be.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.1b86f575.chunk.js.LICENSE"
   },
   {
-    "revision": "562b3ba087c651171616",
-    "url": "/react-portfolio/static/js/main.67c0cc81.chunk.js"
+    "revision": "fe70a49d28896075391e",
+    "url": "/react-portfolio/static/js/main.d1a8d028.chunk.js"
   },
   {
     "revision": "2f4127c43447fa26b9dd",
@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/sudoku-screen.55125245.png"
   },
   {
-    "revision": "85f8510f709de142bc04a64078209112",
-    "url": "/react-portfolio/static/media/yoga-screen.85f8510f.png"
+    "revision": "ab234d605177e05999fd46ea572d712b",
+    "url": "/react-portfolio/static/media/yoga-screen.ab234d60.png"
   }
 ]);
