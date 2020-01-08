@@ -23,43 +23,50 @@ class Portfolio extends Component {
               <img
                 className='icon HTML5'
                 src={portfolioIcons.html}
-                alt='HTML5 icon' />
+                alt='HTML5 icon'
+                title='HTML5' />
             ) : null}
             {project.css ? (
               <img
                 className='icon CSS3'
                 src={portfolioIcons.css}
-                alt='CSS3 icon' />
+                alt='CSS3 icon'
+                title='CSS3' />
             ) : null}
             {project.js ? (
               <img
                 className='icon'
                 src={portfolioIcons.js}
-                alt='JS icon' />
+                alt='JS icon'
+                title='Javascript' />
             ) : null}
             {project.jquery ? (
               <img
                 className='icon'
                 src={portfolioIcons.jQuery}
-                alt='jQuery icon' />
+                alt='jQuery icon'
+                title='jQuery' />
             ) : null}
             {project.react ? (
               <img
                 className='icon'
                 src={portfolioIcons.react}
-                alt='react icon' />
+                alt='React icon'
+                title='React' />
             ) : null}
             {project.node ? (
               <img
                 className='icon'
                 src={portfolioIcons.node}
-                alt='node icon' />
+                alt='Node icon'
+                title='Node' />
             ) : null}
             {project.postgres ? (
               <img
                 className='icon'
                 src={portfolioIcons.postgres}
-                alt='postgres icon' />
+                alt='PostgreSQL icon'
+                title='PostgreSQL' />
             ) : null}
           </div>
           <p className='projectText'>

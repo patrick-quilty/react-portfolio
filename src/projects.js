@@ -27,7 +27,7 @@ const projects = [
     react: true,
     node: false,
     postgres: false,
-    summary: 'A program to demonstrate basic React website functionality and accessibility.  Accessible to A11y users, keyboard users, mouse users, and phone users.',
+    summary: 'A program to demonstrate React website functionality and accessibility.  Accessible to A11y users, keyboard users, mouse users, and phone users.',
     repoLink: 'https://github.com/QuiltDaddy/react-yoga-quiz/tree/master',
     liveLink: 'https://quiltdaddy.github.io/react-yoga-quiz/',
     screen: yogaScreen

@@ -16,7 +16,7 @@ Array [
     <p
       className="copy"
     >
-      © 2019 Patrick Quilty
+      © 2020 Patrick Quilty
     </p>
     <img
       alt="Email icon"
@@ -65,7 +65,7 @@ Array [
     </a>
     <a
       className="portfolioLink"
-      href="https://github.com/QuiltDaddy/portfolio"
+      href="https://github.com/QuiltDaddy/react-portfolio/tree/master"
       rel="noopener noreferrer"
       target="_blank"
     >

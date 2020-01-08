@@ -24,21 +24,25 @@ exports[`renders the UI as expected 1`] = `
         alt="HTML5 icon"
         className="icon HTML5"
         src="icon-HTML5.png"
+        title="HTML5"
       />
       <img
         alt="CSS3 icon"
         className="icon CSS3"
         src="icon-CSS3.png"
+        title="CSS3"
       />
       <img
         alt="JS icon"
         className="icon"
         src="icon-JS.png"
+        title="Javascript"
       />
       <img
         alt="jQuery icon"
         className="icon"
         src="icon-jQuery.png"
+        title="jQuery"
       />
     </div>
     <p
@@ -100,27 +104,31 @@ exports[`renders the UI as expected 1`] = `
         alt="HTML5 icon"
         className="icon HTML5"
         src="icon-HTML5.png"
+        title="HTML5"
       />
       <img
         alt="CSS3 icon"
         className="icon CSS3"
         src="icon-CSS3.png"
+        title="CSS3"
       />
       <img
         alt="JS icon"
         className="icon"
         src="icon-JS.png"
+        title="Javascript"
       />
       <img
-        alt="react icon"
+        alt="React icon"
         className="icon"
         src="icon-react.png"
+        title="React"
       />
     </div>
     <p
       className="projectText"
     >
-      A program to demonstrate basic React website functionality and accessibility.  Accessible to A11y users, keyboard users, mouse users, and phone users.
+      A program to demonstrate React website functionality and accessibility.  Accessible to A11y users, keyboard users, mouse users, and phone users.
     </p>
     <div
       className="linkContainer"
@@ -176,21 +184,25 @@ exports[`renders the UI as expected 1`] = `
         alt="HTML5 icon"
         className="icon HTML5"
         src="icon-HTML5.png"
+        title="HTML5"
       />
       <img
         alt="CSS3 icon"
         className="icon CSS3"
         src="icon-CSS3.png"
+        title="CSS3"
       />
       <img
         alt="JS icon"
         className="icon"
         src="icon-JS.png"
+        title="Javascript"
       />
       <img
         alt="jQuery icon"
         className="icon"
         src="icon-jQuery.png"
+        title="jQuery"
       />
     </div>
     <p
