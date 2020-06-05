@@ -11,6 +11,17 @@ class Portfolio extends Component {
 
   render() {
     const {projects} = this.state;
+
+    const iconNames = {
+      html: 'HTML5',
+      css: 'CSS3',
+      js: 'Javascript',
+      jquery: 'jQuery',
+      react: 'React',
+      node: 'Node',
+      postgres: 'PostgreSQL',
+      airtable: 'Airtable'
+    }
     
     const portfolio = projects.map((project, i) => {
       return (
@@ -19,55 +30,14 @@ class Portfolio extends Component {
          key={i}>
           <div className='projectHeader'>
             <h2>{project.name}</h2>
-            {project.html ? (
-              <img
-                className='icon HTML5'
-                src={portfolioIcons.html}
-                alt='HTML5 icon'
-                title='HTML5' />
-            ) : null}
-            {project.css ? (
-              <img
-                className='icon CSS3'
-                src={portfolioIcons.css}
-                alt='CSS3 icon'
-                title='CSS3' />
-            ) : null}
-            {project.js ? (
-              <img
-                className='icon'
-                src={portfolioIcons.js}
-                alt='JS icon'
-                title='Javascript' />
-            ) : null}
-            {project.jquery ? (
-              <img
-                className='icon'
-                src={portfolioIcons.jQuery}
-                alt='jQuery icon'
-                title='jQuery' />
-            ) : null}
-            {project.react ? (
-              <img
-                className='icon'
-                src={portfolioIcons.react}
-                alt='React icon'
-                title='React' />
-            ) : null}
-            {project.node ? (
-              <img
-                className='icon'
-                src={portfolioIcons.node}
-                alt='Node icon'
-                title='Node' />
-            ) : null}
-            {project.postgres ? (
-              <img
-                className='icon'
-                src={portfolioIcons.postgres}
-                alt='PostgreSQL icon'
-                title='PostgreSQL' />
-            ) : null}
+            {project.tech.map(tech => {
+              return (
+               <img
+                className={'icon ' + iconNames[tech]}
+                src={portfolioIcons[tech]}
+                alt={iconNames[tech] + ' icon'}
+                title={iconNames[tech]} />
+              )})}
           </div>
           <p className='projectText'>
             {project.summary}
