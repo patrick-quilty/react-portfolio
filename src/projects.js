@@ -9,7 +9,7 @@ const projects = [
     tech: ['html', 'css', 'js', 'react', 'node', 'airtable'],
     summary: 'Play card games with friends using a Socket.io WebSocket and an Airtable Database.  Built to play cards while social distancing.  The server can run multiple games simultaneously.  Spades is complete with common variations available, Rummy, Euchre, and Cards Against Humanity will be included next.',
     repoLink: 'https://github.com/QuiltDaddy/virtual-deck-client',
-    liveLink: 'https://test-deck.herokuapp.com/',
+    liveLink: 'https://quiltdaddy.github.io/virtual-deck-client/',
     screen: virtualDeck
   },
   {
