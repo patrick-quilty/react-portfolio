@@ -1,4 +1,16 @@
 /**
+ * Add ability to select number and have it highlight every cell with that number
+ */
+
+
+
+
+
+
+
+
+
+/**
  * Welcome to your Workbox-powered service worker!
  *
  * You'll need to register this file in your web app and you should
